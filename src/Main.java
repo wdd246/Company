@@ -40,5 +40,6 @@ public class Main {
                 .flatMap(Company::getDepartment)
                 .flatMap(Department::getBoss)
                 .map(Manager::getName));
+        
     }
 }
